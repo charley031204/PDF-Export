@@ -1,0 +1,10 @@
+{
+    "id": "smart-pdf-export",
+    "name": "Smart PDF Export",
+    "version": "1.0.0",
+    "minAppVersion": "1.0.0",
+    "description": "Callout 블록이 페이지에서 잘리지 않도록 CSS를 자동 주입하고, 모바일에서도 원터치 PDF 내보내기를 지원합니다.",
+    "author": "Your Name",
+    "authorUrl": "https://github.com/yourusername",
+    "isDesktopOnly": false
+}

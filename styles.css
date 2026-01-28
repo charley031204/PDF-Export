@@ -1,0 +1,23 @@
+/*
+ * Smart PDF Export Plugin - Styles
+ * 
+ * 이 파일은 Obsidian UI에 적용되는 스타일을 정의합니다.
+ * @media print 규칙은 main.ts에서 동적으로 주입됩니다.
+ */
+
+/* 리본 아이콘 호버 효과 */
+.side-dock-ribbon-action[aria-label="PDF로 내보내기 (Smart Layout)"]:hover {
+    background-color: var(--interactive-hover);
+}
+
+/* 
+ * 아래 CSS는 참고용입니다.
+ * 실제 PDF 내보내기용 CSS는 main.ts의 PDF_SMART_BREAK_CSS 상수에 정의되어 있습니다.
+ * 
+ * @media print {
+ *     .callout {
+ *         break-inside: avoid !important;
+ *         page-break-inside: avoid !important;
+ *     }
+ * }
+ */
