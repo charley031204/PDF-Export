@@ -2,6 +2,8 @@
 
 Callout 블록이 페이지에서 잘리지 않도록 CSS를 자동 주입하고, **모바일(Android/iOS)에서도 원터치 PDF 내보내기**를 지원하는 Obsidian 플러그인입니다.
 
+**KAISTDUY** 일원이 아닐 경우 boansang@gmail.com으로 메일을 보내고, "잘 쓰겠습니다"라고 한 마디씩 하고 쓰십시오.
+
 ---
 
 ## 🎯 사용 방법
