@@ -10,46 +10,6 @@ Callout 블록이 페이지에서 잘리지 않도록 CSS를 자동 주입하고
 
 ---
 
-## 📦 빌드 방법 (개발자/직접 빌드하는 경우)
-
-### 사전 준비물
-
-1. **Node.js** (v18 이상 권장)
-   - 다운로드: https://nodejs.org/
-   - 설치 확인: 터미널에서 `node --version` 입력
-
-### 빌드 단계
-
-#### 1단계: 프로젝트 폴더로 이동
-
-터미널(명령 프롬프트, PowerShell, 또는 Mac의 Terminal)을 열고 프로젝트 폴더로 이동합니다.
-
-```bash
-cd smart-pdf-export
-```
-
-#### 2단계: 의존성 패키지 설치
-
-Node.js 패키지들을 설치합니다. 이 과정은 처음 한 번만 실행하면 됩니다.
-
-```bash
-npm install
-```
-
-몇 분 정도 소요될 수 있습니다. `node_modules` 폴더가 생성되면 완료입니다.
-
-#### 3단계: 플러그인 빌드
-
-TypeScript 코드를 JavaScript로 컴파일합니다.
-
-```bash
-npm run build
-```
-
-성공하면 프로젝트 루트에 `main.js` 파일이 생성됩니다.
-
----
-
 ## 📱 Obsidian에 설치하기
 
 ### 필요한 파일
